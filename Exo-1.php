@@ -8,10 +8,10 @@ array_unshift($name,"Saïd");
 var_dump($name);
 
 unset($name[1]);
-
+echo '<hr>';
 foreach ($name as $i => $value) {
     echo $name[$i] . ", ";
 }
-
+echo '<hr>';
 echo count($name);
 ?>
