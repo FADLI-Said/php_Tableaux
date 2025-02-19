@@ -1,0 +1,14 @@
+body{
+    background-image: url(../images/Salade.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fond{
+    height: fit-content;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+.gris{
+    background-color: rgba(0, 0, 0,0.7);
+}
