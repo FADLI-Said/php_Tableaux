@@ -61,10 +61,11 @@ foreach ($table["hobbies"] as $key => $hobbies) {
 
 echo "<br>";
 
+$sub = 0;
 foreach ($table as $key => $hobbies) {
     if (is_array($hobbies)) {
-        echo count($table) - 1 + count($table["hobbies"]);
+        $sub--;
     }
 }
-
+echo count($table) + $sub + count($table["hobbies"]);
 ?>
